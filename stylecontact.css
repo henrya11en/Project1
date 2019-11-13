@@ -1,0 +1,64 @@
+.jumbotron{
+    background-image: url(assets/img/homepic3.jpg);
+    background-size:cover;
+    background-position: center;
+    color:#FFFFFF;
+}
+.jumbotext{
+    color: #ffff;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* This Code Helps Organizing & stack the fill out form.*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+/*helps with color and sizing for the submit button*/
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+/*This Code Will Turn The Submit Button Into A Darker Green Shade When You Hover The Cursor*/
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/*This is the container the house the goat photo and the contact fill out form.*/
+.container {
+  border-radius: 5px;
+  background-color: #C47C04;
+  padding: 10px;
+}
+
+/* This Divides The Goat Photo And Fill Out Form */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns by the goat photo*/
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,50 @@
+/*home page css*/
+.jumbotron{
+    background-image: url(assets/img/homepic1.2.jpeg);
+    background-size:cover;
+    background-position: bottom;
+    color:#FFFFFF;
+}
+/*This will help divide and organize all containers. for example each photo text and etc lives inside a container.*/
+* {
+  box-sizing: border-box;
+}
+
+/*
+.about{
+        background-image: url(assets/img/homepic1.2.jpeg);
+    background-size:auto;
+    background-position: left;
+    color:#FFFFFF;
+}
+.contact{
+        background-image: url(assets/img/homepic1.2.jpeg);
+     background-size:auto;
+    background-position: left;
+    color:#FFFFFF;
+        }
+*/
+.navbar-brand{
+ background-color:#fff;
+}
+.nav-toggler{
+ background-color:#fff;
+}
+
+.card-body{
+    background-image: url(assets/img/homepic1.2.jpeg);
+}
+
+
+
+/*About page css*/
+/*
+
+    background-image: url(assets/img/homepic2.jpg);
+    background-size:cover;
+    background-position: bottom;
+    color:#FFFFFF;
+*/
+
+
+
